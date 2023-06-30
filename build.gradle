@@ -22,7 +22,7 @@ allprojects {
         maven {
             credentials {
                 username "kanxoramesh"
-                password "ATBBtqVgPPqnYrd69HkNXwFPwGKF4EEF3A9E"
+                password "ATBB578FL2Hxm5TFdgexbfvu3zwJ9CF06277"
             }
             authentication {
                 basic(BasicAuthentication)
