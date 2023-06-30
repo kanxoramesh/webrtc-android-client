@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Remote Control</string>
+    <string name="acc_service_description">When this service is turned on, it provides remote control capabilities for the Remote app.</string>
+    <string-array name="select_timeout">
+        <item>15 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+    <string-array name="select_timeout_values">
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>1800000</item>
+    </string-array>
+    <string name="host">10.0.2.2</string>
+    <string name="port">3000</string>
+
+    <string name="tv_widget_chat_text_hint_entertext_field">Type your message here</string>
+    <string name="tv_send">Send</string>
+    <string name="qs_menu_close_session">Close connection</string>
+
+
+    <string name="status_unknown">Unknown</string>
+    <string name="status_connecting">Connecting …</string>
+    <string name="status_connected">Connected!</string>
+    <string name="status_disconnected">Disconnected!</string>
+    <string name="status_matching">Matching …</string>
+    <string name="status_failed">Failed</string>
+    <string name="permission_error">Permission Error</string>
+    <string name="start">Start</string>
+    <string name="status_finished">Finished</string>
+    <string name="status_dialing">Dialing</string>
+</resources>

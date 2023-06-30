@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4698DA</color>
+    <color name="colorPrimaryDark">#274D6C</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="bottom_bar_color_bg">@color/color_white</color>
+    <color name="color_white">#E7FFFFFF</color>
+
+    <color name="colorUnknown">#565656</color>
+    <color name="colorConnecting">#565656</color>
+    <color name="colorMatching">#4094CC</color>
+    <color name="colorFailed">#ED3437</color>
+    <color name="colorConnected">#40b633</color>
+
+    <color name="palette_red">#FB1F05</color>
+    <color name="palette_green">#657725</color>
+
+    <color name="colorPrimaryAlpha">#663F51B5</color>
+
+    <color name="semi_white">#66FFFFFF</color>
+</resources>

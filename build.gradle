@@ -1,0 +1,37 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext.kotlin_version = '1.8.21'
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.1.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.google.gms:google-services:4.3.4'
+    }
+}
+
+allprojects {
+    apply plugin: 'maven-publish'
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+        maven {
+            credentials {
+                username "kanxoramesh"
+                password "ATBBtqVgPPqnYrd69HkNXwFPwGKF4EEF3A9E"
+            }
+            authentication {
+                basic(BasicAuthentication)
+            }
+            url "https://api.bitbucket.org/2.0/repositories/kanxoramesh/controldispatcher/src/release"
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
