@@ -56,8 +56,6 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:26.0.0')
 
     implementation 'com.remote.remote:remotedispatch:1.0.3'
-    implementation 'org.webrtc:google-webrtc:1.0.32006'
-
 
 }
 apply plugin: 'com.google.gms.google-services'

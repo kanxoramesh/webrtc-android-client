@@ -20,14 +20,14 @@ allprojects {
         mavenCentral()
         jcenter()
         maven {
-            credentials {
-                username "kanxoramesh"
-                password "ATBB578FL2Hxm5TFdgexbfvu3zwJ9CF06277"
+            url "https://api.bitbucket.org/2.0/repositories/kanxoramesh/controldispatcher/src/release"
+            credentials(HttpHeaderCredentials) {
+                name = "Authorization"
+                value = "Bearer ATCTT3xFfGN0uY_qd6DoDiEfTUnrZR-4oFYbi9B-xxbMzEG0uubhMkTgwHo3inNQkhZFiuGUuTluz7JM6AjAZ_LMeR20Dbv3B5qYQhNDJDs58xBZkKqybmNRcKbCirF_wAqsojPepyaE6nbST-T3LOhpFx3B25c991qgiCCt0bhz4gvDvhQyvkI=FC3A410F"
             }
             authentication {
-                basic(BasicAuthentication)
+                header(HttpHeaderAuthentication)
             }
-            url "https://api.bitbucket.org/2.0/repositories/kanxoramesh/controldispatcher/src/release"
         }
     }
 }
