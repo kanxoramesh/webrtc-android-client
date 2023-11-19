@@ -9,7 +9,7 @@ import com.remote.control.databinding.ActivityMainBinding
 import com.remote.remote.screenshare.RemoteScreenActivity
 
 /**
- * MainScreen for remote trackify service .
+ * MainScreen for remote service .
  */
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
